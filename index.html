@@ -8,15 +8,51 @@
 <link rel="stylesheet" href="script.js">
 </head>
 <body>
-    <header>
-        <nav>
-            <ul>
-                <li><a href=""></a>Home</li>
-                <li><a href=""></a>Services</li>
-                <li><a href=""></a>About</li>
-                <li><a href=""></a>Contact</li>
-            </ul>
-        </nav>
-    </header>
+    <section class="form-section">
+        <h3>Please fill the below form</h3>
+        <form action="post">
+            <div class="form-labels">
+                <label  for="name">Name</label>
+                <input id="name" type="text" placeholder="Enter Your Name">
+            </div>
+            <div class="form-labels">
+                <label for="email">Email</label>
+                <input id="email" type="email" placeholder="Enter Your Email">
+            </div>
+            <div class="form-labels">
+                <label for="options">Services</label>
+                <select class="f-select" name="option" id="options">
+                    <option value="">Web Development</option>
+                    <option value="">UI/UX Design</option>
+                    <option value="">Cloud Solutions</option>
+                </select>
+            </div>
+            <div class="form-labels">
+                <label for="message">Message</label>
+                <textarea name="" id="message">Write......</textarea>
+            </div>
+            <button class="f-btn">Submit</button>
+        </form>
+    </section>
+    <!-- form completed -->
+     <aside class="aside-section">
+        <article>Office timing : 09:00am to 08:00pm</article>
+        <article>Email : farhan.14268@gmail.com</article>
+        <article>Mobile : 0318-9868699</article>
+     </aside>
+     <!-- aside portion completed -->
+      <footer class="footer-section">
+        <article>copyrights reserved</article>
+        <article>
+            <a href="">✍️</a>
+            <a href="">✍️</a>
+            <a href="">✍️</a>
+        </article>
+        <article class="footer-links">
+            <a href="">Facebook</a>
+            <a href="">Twitter</a>
+            <a href="">Gmail</a>
+        </article>
+      </footer>
 </body>
 </html>
