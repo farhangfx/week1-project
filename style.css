@@ -21,7 +21,7 @@ h3{
 }
 p{
     color: var(--light-text);
-    font-family: ;
+    font-family: "open sans" , sans-serif;
 }
 :root{
 --primary-color: #2563eb; /* Soft Blue */
