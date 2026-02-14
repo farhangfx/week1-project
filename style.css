@@ -89,6 +89,7 @@ body{
     --secondary-color:var(--secondary-color);
 }
 /* nav section closed */
+
 .main-section{
     display: grid;
     grid-template-columns:1fr 1fr;
