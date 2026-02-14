@@ -282,22 +282,3 @@ font-family: "open sans" , sans-serif;
         align-items: center;
     }
 }
-.services-container{
-
-    border: 2px solid brown;
-    text-align: center;
-
-}
-.cards{
-    border: 2px solid black;
-    margin: 2px;
-}
-.cards h3{
-    font-size: 1.5rem;
-}
-.cards p{
-    font-size: 1rem;
-}
-.cards a{
-color: --;
-}
