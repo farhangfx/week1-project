@@ -11,10 +11,12 @@ javascript
 
 "Folder Structure"
 1).images logo
-2). index.html
-3). Readme.md
+2). about.html
+3). index.html
+4). Readme.md
 4). script.js
-5). style.css
+5). services.html
+6). style.css
 
 "Live link"
 https://github.com/farhangfx/week1-project.git
