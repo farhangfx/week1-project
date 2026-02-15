@@ -19,7 +19,6 @@ javascript
 6). style.css
 
 "Live link"
-https://github.com/farhangfx/week1-project.git
-
+https://farhangfx.github.io/week1-project/
 "Author name"
 Farhan Khan
