@@ -1,9 +1,17 @@
 
 document.addEventListener("DOMContentLoaded", function () {
-    let btn = document.getElementById("togglebutton");
-    btn.onclick = () => {
-        document.body.classList.toggle("darkMode");
-    };
+    let themeBtn = document.getElementById("togglebutton");
+
+themeBtn.onclick = function () {
+    document.body.classList.toggle("darkMode");
+
+    if (document.body.classList.contains("darkMode")) {
+        themeBtn.innerHTML = "☀️";
+    } else {
+        themeBtn.innerHTML = "🌙";
+    }
+};
+
 });
     document.addEventListener("DOMContentLoaded", function () {
     let btn = document.getElementById("toggle-menu");
